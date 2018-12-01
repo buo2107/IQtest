@@ -12,6 +12,7 @@
 		498E057321AD639A00FCBE39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498E057121AD639A00FCBE39 /* Main.storyboard */; };
 		498E057521AD639B00FCBE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498E057421AD639B00FCBE39 /* Assets.xcassets */; };
 		498E057821AD639B00FCBE39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498E057621AD639B00FCBE39 /* LaunchScreen.storyboard */; };
+		5751B83621B24A5700173601 /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5751B83521B24A5700173601 /* crayon_1-1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		498E057421AD639B00FCBE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		498E057721AD639B00FCBE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		498E057921AD639B00FCBE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5751B83521B24A5700173601 /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				498E056D21AD639A00FCBE39 /* AppDelegate.swift */,
+				5751B83521B24A5700173601 /* crayon_1-1.ttf */,
 				498E056F21AD639A00FCBE39 /* ViewController.swift */,
 				498E057121AD639A00FCBE39 /* Main.storyboard */,
 				498E057421AD639B00FCBE39 /* Assets.xcassets */,
@@ -96,6 +99,11 @@
 				TargetAttributes = {
 					498E056921AD639A00FCBE39 = {
 						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5751B83621B24A5700173601 /* crayon_1-1.ttf in Resources */,
 				498E057821AD639B00FCBE39 /* LaunchScreen.storyboard in Resources */,
 				498E057521AD639B00FCBE39 /* Assets.xcassets in Resources */,
 				498E057321AD639A00FCBE39 /* Main.storyboard in Resources */,
